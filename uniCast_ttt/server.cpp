@@ -31,7 +31,7 @@ struct Partida
 
 string jugadorEnEspera; // 1er J que llegó y espera rival
 
-/* Forward declarations */
+
 void enviarM(int sock, const string &msg); // m
 void enviarX_aTodos();
 void enviarT(const string &nick, char simbolo);
